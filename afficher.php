@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>formulaire</title>
 </head>
 <style>
@@ -35,8 +36,8 @@
             <td> <?php echo $aff["body"]; ?> </td>
             <td> <?php echo $aff["priority"]; ?> </td>
             <td> <?php echo $aff["type"]; ?> </td>
-            <td><a href="supprimer.php?Id= <?php echo $aff["Id"] ?> ">Supprimer</a></td>
-            <td><a href="modifier.php?Id= <?php echo $aff["Id"] ?> ">Modifier</a></td>
+            <td><a href="supprimer.php?Id= <?php echo $aff["Id"] ?> "><i class="fa-solid fa-trash-can"></i></a></td>
+            <td><a href="modifier.php?Id= <?php echo $aff["Id"] ?> "><i class="fa-solid fa-marker"></i></a></td>
         
             
         </tr>
